@@ -76,7 +76,7 @@ const Step1 = (props) => {
             onChange={handleChange}
           />
         </p>
-        <button className="div8" onClick={next}>
+        <button className="div8 custom__button" onClick={next}>
           Next
         </button>
       </div>
