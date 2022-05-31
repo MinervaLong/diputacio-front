@@ -32,7 +32,10 @@ function Player() {
                     <Card.Body>
                         <Card.Title>{cliente.name.title + " " + cliente.name.first + " " + cliente.name.last}</Card.Title>
                         <Card.Text>
-                            {cliente.location.city + " (" + cliente.location.country + ")"}
+                            Team: {cliente.location.city + " (" + cliente.location.country + ")"}
+                        </Card.Text>
+                        <Card.Text>
+                            Age: {cliente.dob.age}
                         </Card.Text>
                         <Button variant="dark">+ info</Button>
                     </Card.Body>

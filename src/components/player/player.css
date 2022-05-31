@@ -47,3 +47,7 @@
     margin: 0px;
     height: 40px;
 }
+
+p.card-text{
+    margin: 5px;
+}
