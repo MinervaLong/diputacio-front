@@ -3,8 +3,9 @@ const Step2 = (props) => {
   return (
     <form>
       <p>
-        <label htmlFor="goalCh">Goal Champions:</label>
         <input
+          className="inputWidth inputMarginTop"
+          placeholder="Goal Champions"
           type="text"
           name="goalCh"
           value={data.goalCh}
@@ -12,8 +13,9 @@ const Step2 = (props) => {
         />
       </p>
       <p>
-        <label htmlFor="assistCh">Assistance Champions:</label>
         <input
+          className="inputWidth"
+          placeholder="Assistance Champions"
           type="text"
           name="assistCh"
           value={data.assistCh}
@@ -21,8 +23,9 @@ const Step2 = (props) => {
         />
       </p>
       <p>
-        <label htmlFor="ownGoalCamp">Own Goal Camp:</label>
         <input
+          className="inputWidth"
+          placeholder="Own Goal "
           type="text"
           name="ownGoalCamp"
           value={data.ownGoalCamp}
@@ -30,8 +33,9 @@ const Step2 = (props) => {
         />
       </p>
       <p>
-        <label htmlFor="yellowCardCh">Yellow Card Champions:</label>
         <input
+          className="inputWidth"
+          placeholder="Yellow Card Champions"
           type="text"
           name="yellowCardCh"
           value={data.yellowCardCh}
@@ -39,8 +43,9 @@ const Step2 = (props) => {
         />
       </p>
       <p>
-        <label htmlFor="redCardCh">Red Card Champions:</label>
         <input
+          className="inputWidth"
+          placeholder="Red Card Champions"
           type="text"
           name="redCardCh"
           value={data.redCardCh}
