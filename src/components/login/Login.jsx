@@ -19,7 +19,7 @@ const Login = () => {
           placeholder="Enter your password"
           required
         />
-        <button>Login</button>
+        <button className="custom__button">Login</button>
       </form>
     </div>
   );
