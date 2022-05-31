@@ -13,11 +13,7 @@ function App() {
       <Container>
         <Player />
       </Container>
-
       <MultiStepForm />
-    
-      <Player />
-
       <Login />
     </div>
   );
