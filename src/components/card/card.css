@@ -1,0 +1,26 @@
+.card{
+    background: white;
+    border: 1px lightsteelblue solid;
+    border-radius: 5%;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 11px -4px lightsteelblue;
+    cursor: pointer;
+}
+
+.card:active{
+    background: white;
+    transform: scale(1);
+}
+
+.card__container{
+    width: 30vw;
+    margin: auto;
+    padding: 5%;
+}
+
+.card__h2{
+    font-weight: 300;
+}
