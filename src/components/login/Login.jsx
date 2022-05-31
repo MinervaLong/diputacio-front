@@ -1,6 +1,5 @@
 import "./login.css";
 import Logo from "../../assets/logo.webp";
-
 import React from "react";
 
 const Login = () => {
