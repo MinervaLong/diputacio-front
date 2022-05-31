@@ -1,16 +1,12 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { Container, Row, Col, Navbar, Nav, Button, Modal, Form } from 'react-bootstrap';
 import "./App.css";
-import Header from "./components/header/Header";
-import Login from "./components/login/Login";
+
 
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      <Header />
-
-      <Login />
-    </div>
+    
     </BrowserRouter>
   );
 }
