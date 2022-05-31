@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <img src={Diputacio} className="logo-diputacio" alt="logo diputacio" />
-      <h1> Welcome to Diputació Barcelona Football</h1>
+      <h1 className="h1--custom"> Welcome to DB Transfer Market!</h1>
     </div>
   );
 };

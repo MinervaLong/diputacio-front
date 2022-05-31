@@ -25,8 +25,8 @@ function Player() {
     let cards = clientes.map(cliente => {
 
         return (
-            <Container className='container--inline-block'>
-            <Col xs="6" md="3"  >
+            
+            <Col className='col-custom'>
                 <Card className='card-custom'>
                     <Card.Img variant="top" src={cliente.picture.medium} />
                     <Card.Body>
@@ -34,11 +34,11 @@ function Player() {
                         <Card.Text>
                             {cliente.location.city + " (" + cliente.location.country + ")"}
                         </Card.Text>
-                        <Button variant="primary">Más info</Button>
+                        <Button variant="dark">+ info</Button>
                     </Card.Body>
                 </Card>
             </Col>
-            </Container>
+           
         )
 
 
@@ -47,8 +47,6 @@ function Player() {
 
     return (
         <>
-            <h1>Players</h1>
-
             <Row>
                 {cards}
             </Row>

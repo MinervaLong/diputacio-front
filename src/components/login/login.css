@@ -10,7 +10,7 @@ input {
   border-radius: 5px;
   border: 1px solid black;
 }
-button {
+.custom__button {
   justify-content: center;
   align-items: center;
   width: 40%;
