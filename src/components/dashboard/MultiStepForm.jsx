@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Step1 from "./MultiStep1";
 import Step2 from "./MultiStep2";
 import Step3 from "./MultiStep3";
-import Submit from "./MultiStepSubmit";
 
 const MultiStepForm = () => {
   const [currentStep, setCurrentStep] = useState(1);
