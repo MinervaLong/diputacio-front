@@ -21,7 +21,7 @@ button {
   margin-left: 0.1rem;
   border-radius: 5px;
   cursor: pointer;
-  background-color: rgb(189, 43, 226);
+  background-color: darkred;
   color: rgb(10, 10, 10);
   border: none;
 }

@@ -1,0 +1,13 @@
+.container--inline-block{
+    display: inline-block;
+}
+
+.card-custom{
+    border: solid 1px lightsteelblue;
+    border-radius: 5%;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+}
