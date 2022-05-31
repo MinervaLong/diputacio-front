@@ -1,0 +1,45 @@
+/* .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darkred;
+
+  gap: 1rem;
+
+  width: 100%;
+  padding: 0.5rem;
+} */
+
+.logo-diputacio {
+  height: 3rem;
+  margin: 1.5rem;
+}
+
+.h1--custom{
+  color: white;
+  margin: 0 1.5rem 0 0;
+  font-size: 1.5em;
+  /*display: flex;
+  justify-content: center; */
+}
+
+.p--custom{
+  font-size: 12px;
+  margin: 0;
+}
+
+.form-control{
+  margin: 0px;
+}
+
+.img--logo{
+  height: 40px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.div--logo{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
